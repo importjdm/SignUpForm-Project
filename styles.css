@@ -1,0 +1,92 @@
+.body{
+    height: 100vh;
+
+}
+/*font type */
+@font-face{
+    font-family: Norse-Bold;
+    src: url(/Font/Norse-Bold.otf);
+}
+
+.container{
+    display: flex;
+}
+
+.column{
+    width: fit-content;
+}
+
+.plant{
+    height: 100vh;
+} 
+
+/*ODIN logo*/ 
+.odin{
+    height: 7em;
+    background-color: transparent;
+    position: absolute;
+    top: .8rem;
+    left: 34%;
+}
+/*"ODIN" text */
+.odinText{
+    position: absolute;
+    top: 2rem;
+    left: 47%;
+    font-family: Norse-Bold;
+    font-size: 5rem;
+    color: white;
+
+}
+
+.logoContain{
+
+    position: absolute;
+    height: 10rem;
+    width: 41rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    bottom: 63%;
+
+    }
+
+.row{
+    display: flex;
+    flex-direction: column;
+    height: 100%
+} 
+
+/*first section */
+p.fr{
+    margin: 0px;
+    padding-top: 12%;
+    font-size: 2rem;
+    padding-left: 3%;
+    padding-right: 25%;
+    background-color: rgb(250, 243, 243);
+}
+/*"you know it text" */
+.fr2{
+    margin: 0px;
+    font-size: 2rem;
+    padding-top: 2%;
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 12%;
+    background-color: rgb(250, 243, 243);
+}
+
+
+ 
+
+
+
+
+
+
+
+
+/* figure out the contect-box sizing to set all
+    the first section background color to gray. */
+
+/*then do that to all the other sections */
