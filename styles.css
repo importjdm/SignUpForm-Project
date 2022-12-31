@@ -1,6 +1,6 @@
-.body{
-    height: 100vh;
-
+body{
+    height: fit-content;
+    margin: 0px;
 }
 /*font type */
 @font-face{
@@ -9,15 +9,19 @@
 }
 
 .container{
-    display: flex;
+    display: flex; 
+
+}
+/*set width of column container */
+.column{    
+   width: 41rem;
 }
 
-.column{
-    width: fit-content;
-}
 
+/*set width of plant img & make it same size as parent */
 .plant{
-    height: 100vh;
+    display: flex; 
+    width: 41em;  
 } 
 
 /*ODIN logo*/ 
@@ -46,7 +50,7 @@
     width: 41rem;
     background-color: rgba(0, 0, 0, 0.4);
     
-    bottom: 63%;
+    bottom: 64%;
 
     }
 
@@ -62,22 +66,24 @@ p{
 
 /*first section */
 p.fr{
+    line-height: 90%;
     margin: 0px;
-    padding-top: 12%;
+    padding-top: 12.5%;
+    padding-bottom: 1%;
     font-size: 2rem;
     padding-left: 4%;
-    padding-right: 25%;
-    background-color: rgb(250, 243, 243);
+    padding-right: 30%;
+    background-color: rgba(204, 195, 195, 0.212);
 }
 /*"you know it text" */
 p.fr2{
     margin: 0px;
     font-size: 2rem;
-    padding-top: 2%;
-    padding-bottom: 2.85%;
+    padding-top: 0%;
+    padding-bottom: 4.85%;
     padding-left: 4%;
     padding-right: 12%;
-    background-color: rgb(250, 243, 243);
+    background-color: rgb(204, 195, 195, 0.212);
 }
 /*makes label stay on top of input*/
 label{
@@ -89,7 +95,7 @@ label{
     margin-bottom: 2%;
     padding-left: 4%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: ;
+    
    
 
 }
@@ -126,20 +132,35 @@ input[type="password"]:invalid{
 input[type="password"]:valid {
     outline: 1px solid rgb(53, 53, 212)
 }
-
 /*footer section  */ 
 .footer{
-    padding-bottom: 23.5%;
-    background-color: rgb(250, 243, 243);
-
+    box-sizing: border-box;
+    min-height: 341.73px;
+    min-width: 1249px;
+    padding-bottom: 18%;
+    padding-left: 4%;
+    padding-top: 2%;
+    background-color: rgb(204, 195, 195, 0.212);
 }
-
 /*create account button */
 .button{
-    padding: 9px 40px;
+    padding: 11px 60px;
     border-radius: 5.5px;
     color: white;
-    background-color: rgb(59, 73, 59);
+    background-color: #596D48;
+}
+/*log in text */
+.logIn{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12.5px;
+    font-weight: bolder;
+}
+/* "log in" hyperlink */
+a{
+   color: rgb(31, 73, 31);
+   text-decoration: none;
 }
 
 
@@ -147,9 +168,3 @@ input[type="password"]:valid {
 
 
 
-
-
-/* figure out the contect-box sizing to set all
-    the first section background color to gray. */
-
-/*then do that to all the other sections */
